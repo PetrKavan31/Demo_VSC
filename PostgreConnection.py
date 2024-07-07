@@ -49,6 +49,11 @@ db.connect()
 
 # Vytvoření tabulek
 create_tables_query = '''
+    CREATE TABLE IF NOT EXISTS test1 (
+        id SERIAL PRIMARY KEY,
+        name VARCHAR(100),
+        age INTEGER
+    )
 '''
 
 db.execute_query(create_tables_query)
