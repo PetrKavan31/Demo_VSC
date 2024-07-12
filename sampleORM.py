@@ -62,10 +62,10 @@ if __name__ == '__main__':
     # Nacteni vsech uzivatelu
     nacti_uzivatele()
     # Aktualizace uzivatele
-    aktualizuj_uzivatele(4, nove_jmeno='Jan Kahan', novy_email='jan.kahan@ekahan.com')
+    aktualizuj_uzivatele(3, nove_jmeno='Jan Kahan', novy_email='jan.kahan@ekahan.com')
     # Nacteni vsech uzivatelu po aktualizaci
     nacti_uzivatele()
     # Smazani uzivatele
     smazat_uzivatele(1)
 session.close()
-
+print('All done')
